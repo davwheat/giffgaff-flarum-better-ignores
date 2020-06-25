@@ -1,0 +1,29 @@
+.Post--hidden .Post-header::after {
+	content: "Post hidden";
+	visibility: visible;
+}
+
+.Post--hidden:not(.revealContent) .Post-header {
+	visibility: collapse;
+}
+
+.Post--hidden:not(.revealContent) .Post-header::after {
+	content: "Post hidden";
+	visibility: visible;
+}
+
+.Post--hidden:not(.revealContent) .Post-header .item-user, .Post--hidden:not(.revealContent) .Post-header .item-meta {
+	display: none;
+}
+
+.Post--hidden:not(.revealContent) .Post-header .item-ignore-toggle {
+	left: -62px;
+	margin-top: -2px;
+	position: absolute;
+	visibility: visible;
+	z-index: 1000;
+}
+
+.Post--hidden:not(.revealContent) .Post-body, .Post--hidden:not(.revealContent) .Post-footer, .Post--hidden:not(.revealContent) .Post-actions {
+	display: none;
+}
