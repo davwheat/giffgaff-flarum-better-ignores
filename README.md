@@ -9,6 +9,10 @@ This TamperMonkey user script applies better styling on posts by users you ignor
 3. Click **Install**
 4. Enjoy better ignores!
 
+## Screenshots
+
+https://puu.sh/G0qIi/f4cafb2d42.png
+
 ## Also see
 
 * [Better Flarum Dates](https://github.com/davwheat/giffgaff-flarum-better-post-dates#readme)
